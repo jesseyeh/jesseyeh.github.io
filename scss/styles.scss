@@ -1,0 +1,148 @@
+$main: #333333;
+$github: #ff7473;
+$linkedin: #47b8e0;
+$game: #aacd6e;
+$resume: #ffc952;
+$background: #eeeeee;
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background: $background;
+}
+
+#jesse
+{
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+#github
+{
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.25s;
+  animation-duration: 0.5s;
+  animation-delay: 0.25s;
+}
+#linkedin
+{
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+}
+
+#game {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.75s;
+  animation-delay: 0.75s;
+}
+
+#resume
+{
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#banner {
+  height: 100%;
+  width: 100%;
+  display: table;
+  .content {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .title {
+    font-size: 6em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    color: $main;
+  }
+  .links {
+    padding: 35px 0;
+    text-align: center;
+    #github {
+      color: $main;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      transition:color .2s ease-out, background 1s ease-in;
+      &:hover {
+        color: $github;
+      }
+    }
+    #linkedin {
+      color: $main;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      transition:color .2s ease-out, background 1s ease-in;
+      &:hover {
+        color: $linkedin;
+      }
+    }
+    #game {
+      color: $main;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      transition:color .2s ease-out, background 1s ease-in;
+      &:hover {
+        color: $game;
+      }
+    }
+    #resume {
+      color: $main;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      transition:color .2s ease-out, background 1s ease-in;
+      &:hover {
+        color: $resume;
+      }
+    }
+    a {
+      padding: 0 35px;
+    }
+  }
+}
+
+/*
+// mobile devices
+@media only screen and (max-width: 720px) {
+  #banner {
+    .title {
+      font-size: 4em;
+    }
+    .links {
+      font-size: 1em;
+      a {
+        padding: 0 40px;
+      }
+    }
+  }
+}
+
+// tablet devices
+@media only screen and (min-width: 768px) {
+  #banner {
+    .title {
+      font-size: 8em;
+    }
+    .links {
+      font-size: 2em;
+      a {
+        padding: 0 40px;
+      }
+    }
+  }
+}
+*/
