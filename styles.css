@@ -1,0 +1,78 @@
+html, body {
+  display: table;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  background: #eeeeee;
+}
+
+.content {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.title {
+  color: #333333;
+  font-size: 6em;
+  font-weight: 400;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle {
+  color: #333333;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.links {
+  padding: 40px 0;
+  text-align: center;
+}
+.links #github {
+  -moz-transition: color .2s ease-out, background 1s ease-in;
+  -webkit-transition: color .2s ease-out, background 1s ease-in;
+  color: #333333;
+  transition: color .2s ease-out, background 1s ease-in;
+}
+.links #github:hover {
+  color: #ff7473;
+}
+.links #linkedin {
+  -moz-transition: color .2s ease-out, background 1s ease-in;
+  -webkit-transition: color .2s ease-out, background 1s ease-in;
+  color: #333333;
+  transition: color .2s ease-out, background 1s ease-in;
+}
+.links #linkedin:hover {
+  color: #47b8e0;
+}
+.links #projects {
+  -moz-transition: color .2s ease-out, background 1s ease-in;
+  -webkit-transition: color .2s ease-out, background 1s ease-in;
+  color: #333333;
+  transition: color .2s ease-out, background 1s ease-in;
+}
+.links #projects:hover {
+  color: #aacd6e;
+}
+.links #resume {
+  -moz-transition: color .2s ease-out, background 1s ease-in;
+  -webkit-transition: color .2s ease-out, background 1s ease-in;
+  color: #333333;
+  transition: color .2s ease-out, background 1s ease-in;
+}
+.links #resume:hover {
+  color: #ffc952;
+}
+.links a {
+  padding: 0 35px;
+}
